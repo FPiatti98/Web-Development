@@ -35,6 +35,22 @@ body {
     padding-top: 2.5vh;
 }
 
+@keyframes bigger__title {
+    from {
+        transform: scale(1, 1);
+    }
+
+    to {
+        transform: scale(1.2, 1.2);
+    }
+}
+
+#new__navBar li:hover {
+    animation-name: bigger__title;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
 #new__header h3 {
     margin-top: 2.2vh;
     margin-left: 7vw;
@@ -44,6 +60,22 @@ body {
     background-color: white;
     display: flex;
     justify-content: space-around;
+}
+
+@keyframes animated__contact {
+    from {
+        background-color: white;
+    }
+
+    to {
+        background-color: #a1fc1c;
+    }
+}
+
+#new__header h3:hover {
+    animation-name: animated__contact;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
 }
 
 .LinkText__noColor__new {
@@ -179,6 +211,7 @@ body {
     padding-right: 1.5vw;
     padding-left: 1.5vw;
     padding-bottom: 1vh;
+    padding-top: 1vh;
     font-weight: 500;
     font-family: 'Teko', sans-serif;
 }
@@ -223,9 +256,37 @@ body {
     font-family: 'Teko', sans-serif;
 }
 
+@keyframes bigger {
+    from {
+        transform: scale(1, 1);
+    }
+
+    to {
+        transform: scale(1.05, 1.05);
+    }
+}
+
+.articulo1:hover {
+    animation-name: bigger;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.articulo2:hover {
+    animation-name: bigger;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.articulo3:hover {
+    animation-name: bigger;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
 .news__image__large {
-    width: 41vw;
-    height: 72vh;
+    width: 44vw;
+    height: 80vh;
     border-radius: 1vw;
 }
 
@@ -262,6 +323,12 @@ body {
     align-items: center;
     font-weight: bold;
     text-align: center;
+}
+
+.team__index a:hover {
+    animation-name: bigger;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
 }
 
 .team {
