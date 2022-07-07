@@ -1,0 +1,69 @@
+#new__footer {
+    height: 8vh;
+    margin-top: 3vh;
+    border-top: #a1fc1c solid 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    background-color: #002244;
+}
+
+#new__footer h3 {
+    margin-top: 2.2vh;
+    margin-right: 3vw;
+    width: 80px;
+    height: 4vh;
+    padding-top: 2vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact__title__new {
+    grid-area: contact;
+    font-style: normal;
+    font-size: 20px;
+    color: #002244;
+    text-decoration: none;
+    margin-top: -1vh;
+    font-family: 'Teko', sans-serif;
+}
+
+@keyframes animado__contact {
+    from {
+        background-color: white;
+    }
+
+    to {
+        background-color: #a1fc1c;
+    }
+}
+
+#new__footer h3:hover {
+    animation-name: animado__contact;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+#new__footer ul {
+    padding-top: 2vh;
+    padding-left: 2vw;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+#new__footer li {
+
+    padding-left: 0.3vw;
+    padding-right: 0.3vw;
+}
+
+.copyright__new {
+    color: white;
+    background-color: #002244;
+    font-size: 15px;
+}

@@ -1,0 +1,32 @@
+#header {
+    background-color: #002244;
+    border-bottom: #a1fc1c solid 3px;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+}
+
+.header__text {
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+}
+
+#header__items__arrangement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#logo {
+    padding-left: 10px;
+}
+
+#navbar__button {
+    margin-right: 15px;
+}
+
+.LinkText__noColor__new {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}

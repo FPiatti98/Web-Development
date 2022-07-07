@@ -2,3 +2,14 @@
 Poner cosas para todo el sitio como sacarle el circulo a las listas, que el body ocupe el 100% etc
 Aca van los normalizadores de clases de css
 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: auto;
+}
