@@ -156,12 +156,12 @@ body {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    border-radius: 40px;
+    border-radius: 30px;
 }
 
 .team__index img {
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 
