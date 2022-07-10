@@ -11,14 +11,6 @@
     text-decoration: underline #002244;
 }
 
-.title__History {
-    font-size: 30px;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-family: 'Teko', sans-serif;
-    text-decoration: underline #002244;
-}
-
 .carousel {
     height: auto;
 }
@@ -147,12 +139,23 @@
     font-family: 'Teko', sans-serif;
 }
 
+
 .history {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 
+}
+
+.title__History {
+    font-size: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Teko', sans-serif;
+    text-decoration: underline #002244;
 }
 
 .history article {
@@ -237,6 +240,14 @@
         opacity: 0;
     }
 
+    .team__index a {
+        border-radius: 20px;
+    }
+
+    .team__index img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
 }
 
 @media (max-width:576px) {
@@ -272,6 +283,15 @@
     #header__items__arrangement {
         flex-direction: column;
         align-items: center;
+    }
+
+    .team__index a {
+        border-radius: 10px;
+    }
+
+    .team__index img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 
 }
