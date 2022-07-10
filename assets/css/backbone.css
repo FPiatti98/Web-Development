@@ -3,9 +3,18 @@
 }
 
 .title {
-    font-size: 150%;
-    margin-top: 2vh;
-    margin-left: 6vh;
+    font-size: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    font-family: 'Teko', sans-serif;
+    text-decoration: underline #002244;
+}
+
+.title__History {
+    font-size: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
     font-family: 'Teko', sans-serif;
     text-decoration: underline #002244;
 }
