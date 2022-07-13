@@ -1,0 +1,69 @@
+.team__index {
+    background-color: white;
+
+    & a {
+        border-color: map-get($borders, color-borde);
+        border-width: map-get($borders, ancho);
+        border-style: map-get($borders, tipo);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        border-radius: map-get($borders, radio);
+    }
+
+    & img {
+        border-top-left-radius: map-get($borders, radio);
+        border-top-right-radius: map-get($borders, radio);
+    }
+
+}
+
+.team__index a:hover {
+    animation-name: bigger;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0px 5px 30px black;
+}
+
+.team__image {
+    @include size(100%, auto);
+}
+
+
+.LinkText__noColor {
+    color: #002244;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    font-style: bold;
+    padding-top: 8%;
+    font-size: 25px;
+}
+
+.LinkText__noColor--green {
+    @extend .LinkText__noColor;
+    color: $secondary-color;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.LinkText__noColor--red {
+    @extend .LinkText__noColor;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@keyframes bigger {
+    from {
+        transform: scale(1, 1);
+    }
+
+    to {
+        transform: scale(1.05, 1.05);
+    }
+}
+
+.team__spacing {
+    padding-top: 40px;
+}
