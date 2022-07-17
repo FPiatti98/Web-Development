@@ -1,0 +1,112 @@
+.news__container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 15%;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.news__row__1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: grey solid 1px;
+    padding: 1% 1% 1% 1%;
+}
+
+.news__row__1__date {
+    padding-top: 10px;
+}
+
+.news__row__2 {
+    padding: 1% 1% 1% 1%;
+    display: grid;
+    grid-template-areas: "logo team button";
+    grid-template-columns: 10% 60% 30%;
+    grid-template-rows: 70px;
+}
+
+.news__row__2__team {
+    grid-area: team;
+    padding-top: 15px;
+}
+
+.news__row__2__button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.news__button {
+    background-color: #002244;
+    color: white;
+    padding-top: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.news__row__3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+@media (max-width:1050px) {
+    .news__row__2__team {
+        padding-left: 30px;
+    }
+
+    .news__row__3 {
+        padding-top: 20px;
+    }
+
+    .news__row__3__stadium {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width:991px) {
+    .news__container {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .news__row__3 {
+        flex-direction: column;
+    }
+
+    .news__row__3__stadium {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width:576px) {
+    .news__row__1 h2 {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+
+    .news__row__2 {
+        grid-template-rows: 60px;
+    }
+
+    .news__row__2__team {
+        font-size: 20px;
+        padding-left: 40px;
+    }
+
+    .news__button {
+        padding-top: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width:475px) {
+    .news__row__2__team {
+        padding-left: 50px;
+    }
+}
