@@ -155,10 +155,6 @@
         margin-bottom: 10%;
     }
 
-    .carousel__font__p {
-        opacity: 0;
-    }
-
     .team__index a {
         border-radius: 20px;
     }
@@ -171,6 +167,7 @@
     .team__spacing {
         padding-top: 5px;
     }
+
 }
 
 @media (max-width:576px) {
@@ -201,11 +198,6 @@
 
     .LinkText__noColor {
         font-size: 100%;
-    }
-
-    #header__items__arrangement {
-        flex-direction: column;
-        align-items: center;
     }
 
     .team__index a {

@@ -30,3 +30,20 @@
     background-color: transparent;
     text-decoration: none;
 }
+
+@media (max-width:991px) {
+
+    .carousel__font__p {
+        opacity: 0;
+    }
+
+}
+
+@media (max-width:576px) {
+
+    #header__items__arrangement {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
