@@ -67,3 +67,34 @@
 .team__spacing {
     padding-top: 40px;
 }
+
+@media (max-width:991px) {
+    .team__index a {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .team__index a {
+        border-radius: 20px;
+    }
+
+    .team__index img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .team__spacing {
+        padding-top: 5px;
+    }
+}
+
+@media (max-width:576px) {
+    .team__index a {
+        border-radius: 10px;
+    }
+
+    .team__index img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+}
