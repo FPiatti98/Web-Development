@@ -25,40 +25,6 @@
     font-family: 'Teko', sans-serif;
 }
 
-.table__placement {
-    display: flex;
-    justify-content: center;
-}
-
-.table {
-    width: 80%;
-    border: 2px solid black;
-    background-color: white;
-    color: black;
-    margin-top: 5vh;
-    font-family: 'Teko', sans-serif;
-}
-
-.table tr {
-    border: 2px solid black;
-    color: white;
-    background-color: #002244;
-    font-size: 1vw;
-    font-family: 'Teko', sans-serif;
-
-}
-
-.table tr td {
-    border: 2px solid #a1fc1c;
-    text-align: center;
-    font-style: oblique;
-    font-weight: bold;
-    background-color: white;
-    color: black;
-    font-family: 'Teko', sans-serif;
-}
-
-
 .history {
     display: flex;
     flex-direction: column;
@@ -111,30 +77,8 @@
     width: 80%
 }
 
-
-.news__alignment {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.news__alignment img {
-    width: 900px;
-    height: 500px;
-    padding: 50px 100px 50px
-}
-
-.news__alignment div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 150px 200px 200px;
-}
-
-.news__alignment_BOLDtext {
-    font-weight: bold;
-    font-style: italic;
-    font-size: larger;
+.hide__news {
+    display: none;
 }
 
 /*Media queries*/
@@ -166,6 +110,14 @@
 
     .team__spacing {
         padding-top: 5px;
+    }
+
+    .hide__news {
+        display: contents;
+    }
+
+    .hide__carousel {
+        display: none;
     }
 
 }

@@ -76,35 +76,37 @@
                     </ul>
                 </div>
             </nav>
-
         </div>
-
     </header>
 
     <span>
-        <h2 class="title">To contact us please complete this form</h2>
+        <h2 class="title">Contact</h2>
     </span>
 
     <section class="form__container">
         <form>
-            <div class="form-group">
+            <div class="form-group ">
                 <label for="name">Name</label>
-                <input type="text" class="form-control " id="Name" placeholder="Name">
+                <input type="text" class="form-control shadow mb-2 bg-white rounded" id="Name">
             </div>
             <div class="form-group">
                 <label for="Email">Email</label>
-                <input type="text" class="form-control" id="Email" placeholder="Email">
+                <input type="text" class="form-control shadow mb-2 bg-white rounded" id="Email">
             </div>
             <div class="form-group">
                 <label for="Phone">Phone</label>
-                <input type="text" class="form-control" id="Phone" placeholder="Phone">
+                <input type="text" class="form-control shadow mb-2 bg-white rounded" id="Phone">
             </div>
             <div class="form-group">
                 <label>Are you a Person or a Business?</label>
-                <input type="radio" id="Person" name="person_or_business" value="Person">
-                <label for="Person">Person</label>
-                <input type="radio" id="Business" name="person_or_business" value="Business">
-                <label for="Business">Business</label>
+                <div>
+                    <input type="radio" id="Person" name="person_or_business" value="Person">
+                    <label for="Person">Person</label>
+                </div>
+                <div>
+                    <input type="radio" id="Business" name="person_or_business" value="Business">
+                    <label for="Business">Business</label>
+                </div>
             </div>
             <div>
                 <label for="state">State:</label>
@@ -120,15 +122,14 @@
                     <option value="Seattle">Seattle</option>
                 </select>
             </div>
-            <span>
-                <label>Message:</label>
-            </span>
-            <div>
-                <textarea name="Message:" rows="11" cols="100">Write your message here</textarea>
+            <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control rounded-0 shadow mb-2 bg-white rounded" id="exampleFormControlTextarea1"
+                    rows="10">Write your message here</textarea>
             </div>
             <div>
-                <input type="submit">
-                <input type="reset">
+                <input type="submit" class="btn btn-primary">
+                <input type="reset" class="btn btn-primary">
             </div>
         </form>
 

@@ -2,20 +2,18 @@
     background-color: #e5e5e5;
 
     & a {
-        border-color: map-get($borders, color-borde);
-        border-width: map-get($borders, ancho);
-        border-style: map-get($borders, tipo);
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         text-align: center;
-        border-radius: map-get($borders, radio);
+        background-color: white;
+        border-radius: 15px;
     }
 
     & img {
-        border-top-left-radius: map-get($borders, radio);
-        border-top-right-radius: map-get($borders, radio);
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
     }
 
 }
@@ -25,6 +23,7 @@
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
     box-shadow: 0px 5px 30px black;
+    text-decoration: none;
 }
 
 .team__image {
@@ -42,18 +41,6 @@
     font-size: 25px;
 }
 
-.LinkText__noColor--green {
-    @extend .LinkText__noColor;
-    color: $secondary-color;
-    font-family: 'Courier New', Courier, monospace
-}
-
-.LinkText__noColor--red {
-    @extend .LinkText__noColor;
-    color: red;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 @keyframes bigger {
     from {
         transform: scale(1, 1);
@@ -69,18 +56,19 @@
 }
 
 @media (max-width:991px) {
+
     .team__index a {
         margin-top: 10%;
         margin-bottom: 10%;
     }
 
     .team__index a {
-        border-radius: 20px;
+        border-radius: 10px;
     }
 
     .team__index img {
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 
     .team__spacing {
@@ -89,6 +77,7 @@
 }
 
 @media (max-width:576px) {
+
     .team__index a {
         border-radius: 10px;
     }
