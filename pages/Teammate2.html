@@ -5,117 +5,170 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kam Chancellor Profile</title>
+    <title>Seattle Seahawks</title>
     <link rel="icon" type="image/x-icon" href="../img/seahawks-icon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <script src="../assets/js/jquery.slim.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../assets/css/backbone.css" />
+    <link rel="stylesheet" href="../assets/css/Sass.css" />
+    <link rel="stylesheet" href="../assets/css/animate.css" />
+    <script src="../assets/js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </head>
-
-
 
 <body>
 
-    <Header id="new__header">
+    <header class="sticky-top">
 
-        <!--Title-->
-        <div class="logo__new">
-            <a href="../index.html">
-                <img src="../img/seattle-seahawks-logo.png">
-            </a>
+        <div id="header">
+
+            <nav class="navbar sticky-top navbar-dark hide__navbar">
+                <a class="navbar-brand" id="logo" href="../index.html">
+                    <img src="../img/seattle-seahawks-logo.png" width="90" height="40">
+                </a>
+                <ul class="navbar-nav" id="header2__items__arrangement">
+                    <li class="nav-item header__text">
+                        <a class="nav-link" href="History.html">History</a>
+                    </li>
+                    <li class="nav-item header__text">
+                        <a class="nav-link" href="News.html">News</a>
+                    </li>
+                    <li class="nav-item header__text">
+                        <a class="nav-link" href="Team.html">Team</a>
+                    </li>
+                    <li class="nav-item header__text">
+                        <a class="nav-link" href="Schedule.html">Schedule</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav class="navbar sticky-top navbar-dark hide__navbar2">
+                <a class="navbar-brand" id="logo" href="../index.html">
+                    <img src="../img/seattle-seahawks-logo.png" width="90" height="40">
+                </a>
+                <button class="navbar-toggler" id="navbar__button" type="button" data-toggle="collapse"
+                    data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarColor01">
+                    <ul class="navbar-nav mr-auto" id="header__items__arrangement">
+                        <li class="nav-item header__text">
+                            <a class="nav-link" href="History.html">History</a>
+                        </li>
+                        <li class="nav-item header__text">
+                            <a class="nav-link" href="News.html">News</a>
+                        </li>
+                        <li class="nav-item header__text">
+                            <a class="nav-link" href="Team.html">Team</a>
+                        </li>
+                        <li class="nav-item header__text">
+                            <a class="nav-link" href="Schedule.html">Schedule</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
         </div>
 
+    </header>
 
-        <!--Menu-->
+    <section>
+        <div id="teammate__arrangement">
+            <div class="teammate__title">
+                <img src="../img/Teammates/KC.png" class="teammate__image">
+                <div class="teammate__number">#31 S</div>
+                <div class="teammate__name">Kam Chancellor</div>
+            </div>
 
-        <nav id="new__navBar">
+            <div class="teammate__info">
+                <div>
+                    <h4 class="title">Stats</h4>
+                    <div class="teammate__stats">
+                        <ul>
+                            <li>TCL: 14</li>
+                            <li>PICKS: 2</li>
+                        </ul>
+                        <ul>
+                            <li>YDS: 120</li>
+                            <li>RTG: 80</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="title__teammate">Socials</h4>
+                    <ul class="teammate__socials">
+                        <li>
+                            <a href="https://www.instagram.com/kamchancellor/" target="_blank" class="link-dark">
+                                <img src="../img/icons8-instagram-black.png" width="30px" height="30px">
+                                <h4>instagram</h4>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/kamchancellor" target="_blank">
+                                <img src="../img/icons8-twitter-30 black.png" width="30px" height="30px">
+                                <h4>Twitter</h4>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-            <ul>
-                <li>
+        <h2 class="title">History</h2>
 
-                    <a class="LinkText__noColor__new" href="History.html">History</a>
-
-                </li>
-                <li>
-
-                    <a class="LinkText__noColor__new" href="Team.html">Team</a>
-
-                </li>
-                <li>
-
-                    <a class="LinkText__noColor__new" href="News.html">News</a>
-
-                </li>
-                <li>
-
-                    <a class="LinkText__noColor__new" href="Schedule.html">Schedule</a>
-
-                </li>
-            </ul>
-
-        </nav>
-
-        <h3>
-            <a class="contact__title__new" href="Contact.html">Contact</a>
-        </h3>
-
-    </Header>
-
-    <h3 class="title">Highlights</h3>
-
-    <div class="space__correctly">
-        <iframe src="../img/Kam.mp4" width="1280" height="720"></iframe>
-
-        <p>
-            Kameron Darnel Chancellor (born April 3, 1988), nicknamed Bam Bam, is a former American football strong
-            safety
-            who played for the Seattle Seahawks of the National Football League (NFL). He played college football at
-            Virginia Tech prior to being drafted by the Seahawks in the fifth round of the 2010 NFL Draft. A four-time
-            Pro
-            Bowler, he was one of the key members of their Legion of Boom secondary. He also helped lead the Seahawks to
-            victory in Super Bowl XLVIII. He retired in 2019 following complications from a neck injury he suffered two
-            seasons earlier.
-        </p>
-
-    </div>
+        <div class="teammate__history">
+            <p>
+                Kameron Darnel Chancellor (born April 3, 1988), nicknamed Bam Bam, is a former American football strong
+                safety who played for the Seattle Seahawks of the National Football League (NFL). He played college
+                football at Virginia Tech prior to being drafted by the Seahawks in the fifth round of the 2010 NFL
+                Draft. A four-time Pro Bowler, he was one of the key members of their Legion of Boom secondary. He also
+                helped lead the Seahawks to victory in Super Bowl XLVIII. He retired in 2019 following complications
+                from a neck injury he suffered two seasons earlier.
+            </p>
+        </div>
+    </section>
 
     <footer>
 
         <div id="new__footer">
 
-            <section>
-
-                <ul>
-                    <li>
-                        <a href="https://www.youtube.com/seahawks" target="_blank">
-                            <img src="../img/icons8-youtube-play-30-WHITE.png" width="30px" height="30px">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/seahawks/" target="_blank">
-                            <img src="../img/icons8-instagram-30-WHITE.png" width="30px" height="30px">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/Seahawks" target="_blank">
-                            <img src="../img/icons8-twitter-30-WHITE.png" width="30px" height="30px">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/Seahawks/" target="_blank">
-                            <img src="../img/icons8-facebook-nuevo-30-WHITE.png" width="30px" height="30px">
-                        </a>
-                    </li>
-                </ul>
+            <ul>
+                <li>
+                    <a href="https://www.youtube.com/seahawks" target="_blank">
+                        <img src="../img/icons8-youtube-play-30-WHITE.png" width="30px" height="30px">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/seahawks/" target="_blank">
+                        <img src="../img/icons8-instagram-30-WHITE.png" width="30px" height="30px">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/Seahawks" target="_blank">
+                        <img src="../img/icons8-twitter-30-WHITE.png" width="30px" height="30px">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/Seahawks/" target="_blank">
+                        <img src="../img/icons8-facebook-nuevo-30-WHITE.png" width="30px" height="30px">
+                    </a>
+                </li>
+            </ul>
 
             </section>
 
-            <span class="material-symbols-outlined">
-                share
-            </span>
+            <h3>
+                <a class="contact__title__new" href="Contact.html">Contact</a>
+            </h3>
 
         </div>
 

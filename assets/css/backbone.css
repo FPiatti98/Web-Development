@@ -3,7 +3,7 @@
 }
 
 .title {
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 5%;
@@ -81,6 +81,98 @@
     display: none;
 }
 
+#teammate__arrangement {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Teko', sans-serif;
+}
+
+.teammate__title {
+    position: relative;
+    text-align: center;
+}
+
+.teammate__image {
+    width: 100%;
+}
+
+.teammate__name {
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.teammate__number {
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+#teammate__arrangement ul {
+    list-style-type: none;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.teammate__info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 20px;
+}
+
+.teammate__stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.teammate__socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.teammate__socials a {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding-top: 20px;
+    padding-left: 150px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.teammate__socials h4 {
+    font-size: 30px;
+}
+
+.title__teammate {
+    font-size: 40px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'Teko', sans-serif;
+    text-decoration: underline #002244;
+}
+
+.teammate__history {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 20PX;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
 /*Media queries*/
 
 @media (max-width:991px) {
@@ -120,6 +212,13 @@
         display: none;
     }
 
+    .teammate__name {
+        font-size: 70px;
+    }
+
+    .teammate__number {
+        font-size: 30px;
+    }
 }
 
 @media (max-width:576px) {
@@ -159,5 +258,27 @@
     .team__index img {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+    }
+
+    .teammate__name {
+        font-size: 40px;
+    }
+
+    .teammate__number {
+        font-size: 20px;
+    }
+
+    .teammate__info {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
+
+    .title__teammate {
+        margin-left: 5%;
+    }
+
+    .teammate__socials a {
+        padding-left: 80px;
     }
 }
