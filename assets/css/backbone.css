@@ -148,6 +148,7 @@ Teammate page
     font-size: 40px;
     margin-top: 2%;
     margin-bottom: 2%;
+    padding-left: 40px;
     font-family: 'Teko', sans-serif;
     text-decoration: underline #002244;
 }
@@ -175,6 +176,10 @@ Teammate page
         display: none;
     }
 
+    #teammate__arrangement ul {
+        font-size: 40px;
+    }
+
     .teammate__name {
         font-size: 60px;
     }
@@ -182,12 +187,21 @@ Teammate page
     .teammate__number {
         font-size: 30px;
     }
+
+    .teammate__socials a {
+        padding-left: 55px;
+    }
 }
 
 @media (max-width:576px) {
 
     .title {
         font-size: 30px;
+    }
+
+    .title__teammate {
+        font-size: 30px;
+        padding-left: 5px;
     }
 
     .teammate__name {
@@ -206,9 +220,5 @@ Teammate page
 
     .title__teammate {
         margin-left: 5%;
-    }
-
-    .teammate__socials a {
-        padding-left: 80px;
     }
 }
