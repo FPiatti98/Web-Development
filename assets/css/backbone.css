@@ -1,7 +1,3 @@
-.material-symbols-outlined {
-    color: white;
-}
-
 .title {
     font-size: 40px;
     margin-top: 2%;
@@ -24,6 +20,10 @@
     font-size: 25px;
     font-family: 'Teko', sans-serif;
 }
+
+/*
+History page css
+*/
 
 .history {
     display: flex;
@@ -63,23 +63,13 @@
     padding: 2vh 0vh 2vh 0vh;
 }
 
-.white__text {
-    color: white;
-}
-
-.space__correctly {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.space__correctly p {
-    width: 80%
-}
-
 .hide__news {
     display: none;
 }
+
+/*
+Teammate page
+*/
 
 #teammate__arrangement {
     max-width: 100%;
@@ -101,7 +91,7 @@
     font-size: 100px;
     color: white;
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -177,33 +167,6 @@
 
 @media (max-width:991px) {
 
-    .table {
-        margin-top: 3vh;
-        margin-bottom: 2vh;
-    }
-
-    .table tr {
-        font-size: 2vw;
-    }
-
-    .team__index a {
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
-
-    .team__index a {
-        border-radius: 20px;
-    }
-
-    .team__index img {
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-    }
-
-    .team__spacing {
-        padding-top: 5px;
-    }
-
     .hide__news {
         display: contents;
     }
@@ -213,7 +176,7 @@
     }
 
     .teammate__name {
-        font-size: 70px;
+        font-size: 60px;
     }
 
     .teammate__number {
@@ -223,41 +186,8 @@
 
 @media (max-width:576px) {
 
-    .table {
-        width: 90%;
-        margin-top: 3vh;
-    }
-
-    .table tr {
-        border: 2px solid black;
-        color: white;
-        background-color: #002244;
-        font-size: 4vw;
-        font-family: 'Teko', sans-serif;
-
-    }
-
-    .table tr td {
-        border: 2px solid #a1fc1c;
-        text-align: center;
-        font-style: oblique;
-        font-weight: bold;
-        background-color: white;
-        color: black;
-        font-family: 'Teko', sans-serif;
-    }
-
-    .LinkText__noColor {
-        font-size: 100%;
-    }
-
-    .team__index a {
-        border-radius: 10px;
-    }
-
-    .team__index img {
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+    .title {
+        font-size: 30px;
     }
 
     .teammate__name {

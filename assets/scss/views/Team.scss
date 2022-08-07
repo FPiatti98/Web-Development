@@ -32,10 +32,10 @@
 
 
 .LinkText__noColor {
-    color: #002244;
+    color: $primary-color;
     background-color: transparent;
     text-decoration: none;
-    font-family: 'Teko', sans-serif;
+    font-family: $font;
     font-style: bold;
     padding-top: 8%;
     font-size: 25px;
@@ -60,9 +60,6 @@
     .team__index a {
         margin-top: 10%;
         margin-bottom: 10%;
-    }
-
-    .team__index a {
         border-radius: 10px;
     }
 
